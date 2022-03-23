@@ -1712,6 +1712,21 @@ background: linear-gradient(to right, rgba(60,16,83,0.8), rgba(173,83,137,0.8));
    }
 
    .nutrisoil2{padding-top: 50px !important;}
+
+   .bg-sec .bg-stars{display: none !important;}
+   .bg-sec-mob{
+      display: block;
+      background:url("../images/background/stars-bg-mob.png") center bottom no-repeat #2e1818;
+      background-size: inherit;
+   }
+   .bg-stars-mob{
+      display: block;
+      background:url("../images/background/stars-bg-3-mob.png") center bottom no-repeat #2e1818;
+      background-size: inherit;
+
+   }
+
+   .ava-capt{font-size: 16px;}
 }
 
 @media only screen and (max-width:320px) 
@@ -2345,6 +2360,21 @@ transition: transform .8s cubic-bezier(.5,.2,.2,.8),-webkit-transform .8s cubic-
  }
 
  .capt-about{font-size: 16px;}
+ 
+
+ @media only screen and (min-width: 1024px) {
+   .bg-sec-mob .bg-stars-mob{display: none !important;}
+   .bg-sec{
+      display: block;
+     background:url("../images/background/stars-bg.png") center center no-repeat #2e1818;
+   }
+   .bg-stars{
+     display: block;
+     background:url("../images/background/stars-bg-3.png") center center no-repeat #2e1818;
+   }
+
+   .ava-capt{font-size: 24px;}
+ }
 
 @media only screen and (max-width: 1024px) {
     .icon-examples .icon-box{width: 50%;}
